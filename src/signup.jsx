@@ -34,7 +34,7 @@ function SignUp() {
         setIsRegistered(true);
       }
     } catch (error) {
-      // setMessage(error.message);
+      setMessage(error.message);
     }
   };
 
